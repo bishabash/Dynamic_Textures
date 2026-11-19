@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-rng=np.random.default_rng(42)
+rng=np.random.default_rng(35) # 35 pour fixer
 
 tableau_blanc= rng.normal(0,1,size=(256,256)) #tab loi de gausse non borne
 
